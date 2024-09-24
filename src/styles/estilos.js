@@ -15,6 +15,7 @@ const estilos = StyleSheet.create({
     paddingHorizontal: 10,
   },
   figuraGeometrica: {
+    minWidth: 150,
     marginVertical: 10,
     alignItems: "center",
     backgroundColor: corBranco,
@@ -68,6 +69,7 @@ const estilos = StyleSheet.create({
     borderRadius: 5,
     padding: 10,
     backgroundColor: "#fff",
+    maxWidth: 110
   },
   linha: {
     width: '100%',  

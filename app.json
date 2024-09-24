@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "SesiGeometria",
+    "name": "Sesi Geometria",
     "slug": "SesiGeometria",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.douglas.camata.SesiGeometria"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d98617f3-085b-453f-9d56-edbd4dc09bcd"
+      }
     }
   }
 }
