@@ -5,6 +5,7 @@ import { estilos } from '../styles/estilos'
 const Figuras3D = ({ navigation }) => {
     return (
         <ScrollView style={{flex: 1}}>
+            <Image source={require('../../assets/icone_sesi.png')} style={{width:360, height: 50}}/>
             <Text style={estilos.texto}>Selecione uma figura 3D</Text>
             <View style={estilos.linhaFiguras}>
                 {/* Card da figura Cubo */}

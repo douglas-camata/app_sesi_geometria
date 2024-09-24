@@ -5,6 +5,7 @@ import { estilos } from '../styles/estilos'
 const Figuras2D = ({ navigation }) => {
     return (
         <ScrollView style={{flex: 1}}>
+            <Image source={require('../../assets/icone_sesi.png')} style={{width:360, height: 50}}/>
             <Text style={estilos.texto}>Selecione uma figura 2D</Text>
             <View style={estilos.linhaFiguras}>
                 <TouchableOpacity style={estilos.figuraGeometrica} 
