@@ -2,6 +2,7 @@ import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import Figuras2D from './Figuras2D'
 import Figuras3D from './Figuras3D'
+import MenuConversoes from './MenuConversoes'
 import {MaterialCommunityIcons} from '@expo/vector-icons'
 import { corBranco, corPrincipal} from '../styles/estilos'
 
@@ -30,6 +31,16 @@ const Principal = () => {
                     headerTitleStyle: {fontWeight: 'bold'},
                     tabBarIcon: ({color, size}) => (
                         <MaterialCommunityIcons name="triangle-outline" color={color} size={size} />
+                    )
+                }}
+            />
+            <Tab.Screen name="Conversões" component={MenuConversoes} 
+                options={{
+                    headerStyle: {backgroundColor: corPrincipal},
+                    headerTintColor: corBranco,
+                    headerTitleStyle: {fontWeight: 'bold'},
+                    tabBarIcon: ({color, size}) => (
+                        <MaterialCommunityIcons name="sync" color={color} size={size} />
                     )
                 }}
             />

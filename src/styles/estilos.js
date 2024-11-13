@@ -77,6 +77,40 @@ const estilos = StyleSheet.create({
     backgroundColor: corPrincipal,
     marginVertical: 10,      
   },
+  linhaFlatListUn: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingVertical: 8,
+    borderTopWidth: 1,
+    borderTopColor: '#ccc',
+    gap: 10,
+    width: '100%'
+  },
+  unTexto: {
+    flex: 3,
+    color: '#007AFF',
+    fontSize: 16,
+  },
+  valorUnMedida: {
+    flex: 2,
+    color: '#FF4500',
+    fontSize: 16,
+    textAlign: 'right',
+  },
+  picker: {
+    minWidth: 150,
+    backgroundColor: '#fff',
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: "#ccc",
+    borderRadius: 5,
+    margin: 3
+  },
+  imgConv: {
+    width: 60,
+    maxHeight: 60,
+  }
+
 });
 export {
   corPrincipal,

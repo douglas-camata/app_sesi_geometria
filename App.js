@@ -18,6 +18,15 @@ import Circulo from "./src/pages/Circulo";
 import Triangulo_Retangulo from "./src/pages/Triangulo_Retangulo";
 import Triangulo_Equilatero from "./src/pages/Triangulo_Equilatero";
 import Triangulo_Isosceles from "./src/pages/Triangulo_Isoceles";
+import ConvComprimento from "./src/pages/ConvComprimento";
+import ConvArea from "./src/pages/ConvArea";
+import ConvPeso from "./src/pages/ConvPeso";
+import ConvVolume from "./src/pages/ConvVolume";
+import ConvTempo from "./src/pages/ConvTempo";
+import ConvTemperatura from "./src/pages/ConvTemperatura";
+import ConvVelocidade from "./src/pages/ConvVelocidade";
+import ConvDadosComputacionais from "./src/pages/ConvDadosComputacionais";
+
 
 const Stack = createNativeStackNavigator()
 
@@ -96,6 +105,62 @@ const App = () => {
         <Stack.Screen name="TrianguloIsosceles" component={Triangulo_Isosceles} 
           options={{
             title: 'Triângulo Isósceles',
+            headerStyle: {backgroundColor: corPrincipal},
+            headerTintColor: corBranco,
+            headerTitleStyle: {fontWeight: 'bold'},           
+        }} />
+        <Stack.Screen name="ConvComprimento" component={ConvComprimento} 
+          options={{
+            title: 'Unidade de Comprimento',
+            headerStyle: {backgroundColor: corPrincipal},
+            headerTintColor: corBranco,
+            headerTitleStyle: {fontWeight: 'bold'},           
+        }} />
+        <Stack.Screen name="ConvArea" component={ConvArea} 
+          options={{
+            title: 'Unidade de Área',
+            headerStyle: {backgroundColor: corPrincipal},
+            headerTintColor: corBranco,
+            headerTitleStyle: {fontWeight: 'bold'},           
+          }} />
+          <Stack.Screen name="ConvPeso" component={ConvPeso} 
+          options={{
+            title: 'Unidade de Peso',
+            headerStyle: {backgroundColor: corPrincipal},
+            headerTintColor: corBranco,
+            headerTitleStyle: {fontWeight: 'bold'},           
+        }} />
+        <Stack.Screen name="ConvVolume" component={ConvVolume} 
+          options={{
+            title: 'Unidade de Volume',
+            headerStyle: {backgroundColor: corPrincipal},
+            headerTintColor: corBranco,
+            headerTitleStyle: {fontWeight: 'bold'},           
+        }} />
+        <Stack.Screen name="ConvTemperatura" component={ConvTemperatura} 
+          options={{
+            title: 'Unidade de Temperatura',
+            headerStyle: {backgroundColor: corPrincipal},
+            headerTintColor: corBranco,
+            headerTitleStyle: {fontWeight: 'bold'},           
+        }} />
+        <Stack.Screen name="ConvTempo" component={ConvTempo} 
+          options={{
+            title: 'Unidade de Tempo',
+            headerStyle: {backgroundColor: corPrincipal},
+            headerTintColor: corBranco,
+            headerTitleStyle: {fontWeight: 'bold'},           
+        }} />
+        <Stack.Screen name="ConvVelocidade" component={ConvVelocidade} 
+          options={{
+            title: 'Unidade de Velocidade',
+            headerStyle: {backgroundColor: corPrincipal},
+            headerTintColor: corBranco,
+            headerTitleStyle: {fontWeight: 'bold'},           
+        }} />
+        <Stack.Screen name="ConvDadosComputacionais" component={ConvDadosComputacionais} 
+          options={{
+            title: 'Unidade de Dados Computacionais',
             headerStyle: {backgroundColor: corPrincipal},
             headerTintColor: corBranco,
             headerTitleStyle: {fontWeight: 'bold'},           
